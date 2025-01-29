@@ -1,4 +1,10 @@
-class kidsWithGreatestCandies {
+//1431. Kids With the Greatest Number of Candies
+// Approach: Brute Force
+
+
+import java.util.*;
+
+public class KidsWithGreatestCandies {
     public static List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
         List<Boolean> list = new ArrayList<Boolean>();
         int maxCandies = candies[0];
@@ -15,6 +21,7 @@ class kidsWithGreatestCandies {
             list.add(false);
         }
      return list;
+    }
 
      public static void main(String[] args){
 
@@ -24,6 +31,4 @@ class kidsWithGreatestCandies {
             System.out.println(i);
         }
      }
-
     }
-}
