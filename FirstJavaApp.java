@@ -1,8 +1,6 @@
 //This console app lets you create a series of folders in your directory
 
 import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner; //used to get inputs
 
@@ -127,28 +125,3 @@ public class FirstJavaApp {
         directory.delete();
     }
 }
-
-
-
-/*import java.util.Scanner;
-
-public class JavaVariables {
-    public static void main(String[] args) {
-        int passengers = 5; // -2,147,483,648 to  2,147,483,648 Memory: 4 Bytes (4*8 =32 bits)
-        System.out.println(passengers);
-
-        Scanner scn = new Scanner(System.in);
-
-        int busTickets = passengers;
-        System.out.println(busTickets);
-
-        String passengerName = "John Doe"; //Memory varies, empty string = 24 Bytes
-        char passengerInitial ='A'; //Memory: 2 Bytes, follows ASCII standards
-
-        long totalPassengers = 10000000000L; // -9,223,372,036,854,775,808 to  9,223,372,036,854,775,808 Memory: 8 Bytes (8*8 =64 bits)
-        totalPassengers = 10_000_000_000L; // More readable form
-
-        double averageFare = 859.332356; //15 digits
-        }
-    
-}*/
