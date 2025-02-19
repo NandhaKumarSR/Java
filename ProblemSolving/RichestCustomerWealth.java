@@ -19,6 +19,4 @@ public class RichestCustomerWealth {
         }
         return richest;
     }
-
-
 }
